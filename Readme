@@ -1,1 +1,187 @@
 
+# 🏥 AI-Powered Enhanced EHR Imaging & Documentation System  
+An advanced Electronic Health Record (EHR) system enhanced with **Generative AI** for medical image processing, clinical documentation, and ICD-10 coding automation.  
+This project was developed as part of the **Infosys Internship Program**.
+
+---
+
+## 🚀 Project Overview  
+This project aims to modernize Electronic Health Records (EHR) by integrating **AI-driven medical image enhancement**, **automated clinical note generation**, and **ICD-10 coding assistance**.
+
+Using **Generative AI (Azure OpenAI)**, the system improves patient record accuracy, reduces clinician workload, and enhances medical imaging clarity for more informed clinical decisions.
+
+---
+
+## 🎯 Objectives  
+- Improve medical imaging quality using GenAI  
+- Automate clinical note writing  
+- Auto-generate ICD-10 codes  
+- Reduce manual administrative workload  
+- Create a more intelligent, patient-centric EHR model  
+
+---
+
+## 📌 Key Features  
+
+### 🔹 1. Medical Image Enhancement  
+- AI-based image denoising  
+- Reconstruction of MRI/CT/X-ray  
+- Resolution enhancement and clearer visualization  
+- Provides improved clinically interpretable images  
+
+### 🔹 2. Automated Clinical Documentation  
+- Converts structured data into clinical notes  
+- Summaries of diagnosis, history, and observations  
+- Reduces 60–70% time spent on paperwork  
+
+### 🔹 3. ICD-10 Coding Automation  
+- Maps symptoms/notes to ICD-10 labels  
+- Smart coding suggestions  
+- Reduces medical coding errors  
+
+### 🔹 4. Seamless EHR Integration  
+- Designed to embed into hospital management workflow  
+- Supports further scaling for OPD/IPD modules  
+
+---
+
+## 📂 Project Structure  
+EHR/
+│
+├── assets/
+│ ├── sample_images/
+│ ├── enhanced_images/
+│ └── datasets/
+│
+├── backend/
+│ ├── api/
+│ ├── models/
+│ ├── routes/
+│ └── preprocessing/
+│
+├── ai_models/
+│ ├── imaging_enhancement/
+│ ├── clinical_notes/
+│ └── icd10_coding/
+│
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── services/
+│ │ └── styles/
+│ └── package.json
+│
+├── docs/
+│ └── Project_Documentation.pdf
+│
+└── README.md
+
+
+---
+
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React.js  
+- Tailwind CSS  
+- Chart.js / Recharts  
+- Axios  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- Python (image processing & AI modules)
+
+### **AI / ML**
+- Azure OpenAI  
+- Python  
+- OpenCV  
+- NumPy / Pandas  
+- Pytorch / Tensorflow (if applicable)
+
+### **Database**
+- MongoDB / PostgreSQL (as used)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 📥 Clone the Repository
+```bash
+git clone https://github.com/Isha032003/EHR.git
+cd EHR
+
+🔧 Backend Setup
+cd backend
+npm install
+npm start
+
+💻 Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+📊 Workflow Diagram
+Dataset → Preprocessing → AI Image Enhancement → EHR Interface → Note Generation → ICD-10 Coding → Final Report
+
+🧪 Modules Implemented
+✔ Module 1: Data Collection & Preprocessing
+
+Import X-ray, MRI, CT, USG images
+
+Clean, label & standardize datasets
+
+✔ Module 2: Medical Imaging Enhancement
+
+Denoising
+
+Resolution upscaling
+
+Reconstruction models
+
+✔ Module 3: Clinical Note Generation & ICD-10 Coding
+
+Automated summaries
+
+Predictive code mapping
+
+✔ Module 4: Deployment & Integration
+
+Connect models to frontend
+
+Plug-in for hospital workflow
+
+Future Enhancements
+
+Multi-language report generation
+
+Doctor voice-to-text assistant
+
+Live AI-powered diagnostic feedback
+
+Full Hospital Management System (HMS) integration
+
+Patient portal with real-time updates
+
+👨‍💻 Contributors
+
+Isha Khairnar – Intern, Infosys
+
+AI/ML Model Development
+
+Frontend + Backend Integration
+
+Documentation
+
+📜 License
+
+This project is for educational and internship purposes under Infosys.
+
+🏁 Conclusion
+
+The AI-Powered Enhanced EHR Imaging & Documentation System is a step toward automating clinical workflows using Generative AI. It enhances both diagnostic support and administrative efficiency, allowing medical staff to focus more on patient care.
+
+
+
